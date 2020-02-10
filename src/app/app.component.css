@@ -1,0 +1,27 @@
+.util-nav {
+    float: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    padding-right: 20px;
+
+}
+
+.util-nav li {
+    float: left;
+    color: #ebebeb;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.util-nav li > a {
+    padding: 0 4px 0 4px;
+    line-height: 35px;
+    color: #aaa;
+    text-transform: uppercase;
+}
+.sidebar-block, .content-area-block{
+    border: solid 1px black;;
+    min-height: 500px;
+
+}

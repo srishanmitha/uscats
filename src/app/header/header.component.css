@@ -1,0 +1,29 @@
+.header-img {
+    max-height: 170px; width: 100%;
+    padding-left: 80px;
+}
+.header-container{
+    background-color: chocolate;
+}
+.util-nav {
+    float: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    padding-right: 20px;
+
+}
+
+.util-nav li {
+    float: left;
+    color: #ebebeb;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.util-nav li > a {
+    padding: 0 4px 0 4px;
+    line-height: 35px;
+    color: #aaa;
+    text-transform: uppercase;
+}

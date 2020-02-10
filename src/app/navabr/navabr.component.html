@@ -1,0 +1,15 @@
+
+    <div class="container">
+        <div class="row" style="padding-left:220px;background-color: coral;">        
+            <div> 
+                <ul  class="center-nav"> 
+                    <li *ngFor="let item of items">
+                    <a  [routerLink]="item.link"  routerLinkActive="active">{{item.name}}</a>
+                    </li>
+                
+                </ul>
+            </div>     
+        </div>
+    </div>
+  
+       

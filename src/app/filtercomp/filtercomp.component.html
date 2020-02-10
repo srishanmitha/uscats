@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-12">
+        <input type="text" name="" id="" [(ngModel)]="search">
+        <select id="searchTypeSelect" [(ngModel)]="searchType">
+            <option>equal</option>
+            <option>not-equal</option>
+        </select>
+    </div>
+  
+    </div>
+<div class="row">
+<div class="col-3" *ngFor = "let e of (employees | emmployeeFilter:'name':search:searchType)">
+    <div class="card d-flex flex-row emp-card">
+       <div class="dp">
+       <img src="../../assets/{{e.dp}}">
+           
+       </div>
+       <div class="info">
+           <ul class="list-group">
+              <li>{{e.name}}</li>
+              <li>{{e.Age}}</li>
+               <li>{{e.quali}}</li>
+               <li>{{e.Desig}}</li>
+                <li>{{e.Phone}}</li>
+                <li>{{e.Address}}</li>
+            </ul>
+       </div>
+    </div>
+  </div>
+</div>

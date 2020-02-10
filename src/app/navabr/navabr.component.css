@@ -1,0 +1,24 @@
+.my-headerblock {
+    width: 60%;
+    margin: 0 auto;
+}
+.center-nav {
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+   
+}
+
+.center-nav li {
+    float: left;
+    color: #b80505;
+    font-size: 18px;
+}
+
+.center-nav li > a {
+    padding: 0 4px 0 4px;
+    line-height: 35px;
+    color:gray;
+    text-transform: uppercase;
+}
